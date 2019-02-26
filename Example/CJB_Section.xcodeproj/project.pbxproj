@@ -65,6 +65,12 @@
 		B0D5DEB1DD46786C1F9B0142 /* Pods_CJB_Section_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJB_Section_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A3B3042CADC801DD14538F /* CJB_Section.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJB_Section.podspec; path = ../CJB_Section.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D6F270B77D7C29598D356E4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0A2D1192224ECDB001C2ACF /* Target_B_SecionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_B_SecionViewController.m; sourceTree = "<group>"; };
+		F0A2D11A2224ECDB001C2ACF /* B_SecionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = B_SecionViewController.h; sourceTree = "<group>"; };
+		F0A2D11B2224ECDB001C2ACF /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F0A2D11C2224ECDB001C2ACF /* Target_B_SecionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_B_SecionViewController.h; sourceTree = "<group>"; };
+		F0A2D11D2224ECDB001C2ACF /* B_SecionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = B_SecionViewController.m; sourceTree = "<group>"; };
+		F0A2D11F2224ECDB001C2ACF /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		F60A7A5BC817939005CC9CE7 /* Pods-CJB_Section_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJB_Section_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJB_Section_Tests/Pods-CJB_Section_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FCBDF89CE6F6D8D1E9889418 /* Pods-CJB_Section_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJB_Section_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJB_Section_Example/Pods-CJB_Section_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +138,7 @@
 		6003F593195388D20070C39A /* Example for CJB_Section */ = {
 			isa = PBXGroup;
 			children = (
+				F0A2D1172224ECDB001C2ACF /* CJB_Section */,
 				6003F59C195388D20070C39A /* CJAppDelegate.h */,
 				6003F59D195388D20070C39A /* CJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +201,36 @@
 				F60A7A5BC817939005CC9CE7 /* Pods-CJB_Section_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0A2D1172224ECDB001C2ACF /* CJB_Section */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D1182224ECDB001C2ACF /* Classes */,
+				F0A2D11E2224ECDB001C2ACF /* Assets */,
+			);
+			name = CJB_Section;
+			path = ../../CJB_Section;
+			sourceTree = "<group>";
+		};
+		F0A2D1182224ECDB001C2ACF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D1192224ECDB001C2ACF /* Target_B_SecionViewController.m */,
+				F0A2D11A2224ECDB001C2ACF /* B_SecionViewController.h */,
+				F0A2D11B2224ECDB001C2ACF /* .gitkeep */,
+				F0A2D11C2224ECDB001C2ACF /* Target_B_SecionViewController.h */,
+				F0A2D11D2224ECDB001C2ACF /* B_SecionViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0A2D11E2224ECDB001C2ACF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D11F2224ECDB001C2ACF /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
