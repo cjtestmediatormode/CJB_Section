@@ -1,0 +1,6 @@
+framework module CJB_Section {
+  umbrella header "CJB_Section-umbrella.h"
+
+  export *
+  module * { export * }
+}

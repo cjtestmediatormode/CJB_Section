@@ -1,0 +1,16 @@
+PODS:
+  - CJB_Section (0.1.0)
+
+DEPENDENCIES:
+  - CJB_Section (from `../`)
+
+EXTERNAL SOURCES:
+  CJB_Section:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJB_Section: c0338fcb49a7dc3bf9a92bdc1ef41d426cd89d13
+
+PODFILE CHECKSUM: 024112596eb4c1663bdfca5f5e3c2ae8223d9047
+
+COCOAPODS: 1.5.3
